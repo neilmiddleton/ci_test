@@ -8,4 +8,4 @@ after_script:
   - wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh
   - heroku plugins:install https://github.com/ddollar/heroku-anvil
   - heroku build -r ancient-temple-7190  -b https://github.com/heroku/heroku-buildpack-ruby.git
-  - heroku run rake db:migrate
+  - heroku run rake db:migrate --app ancient-temple-7190
