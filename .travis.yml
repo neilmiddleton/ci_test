@@ -1,0 +1,16 @@
+language: ruby
+
+env:
+  global:
+    - secure: "Bn4TImn1xVcjFTxGHuRMvXyQBck5Wya0Q8Mae9xTMdPUSBdCNxYqBSXkfuj1\n4E00jpdysNDqTVOXe8SwhF5vZKQN/1Iy1NPvGCr+aD/0X4IDbTz8x7rNQ8Rk\n83mdni54yrjC8s2UPpuci4hdLUX9UMAa2SOy7R7hH4jg1/AafcQ="
+
+after_script:
+  # - gem install heroku
+  # - git remote add heroku git@heroku.com:ancient-temple-7190.git
+  # - echo "Host heroku.com" >> ~/.ssh/config
+  # - echo "   StrictHostKeyChecking no" >> ~/.ssh/config
+  # - echo "   CheckHostIP no" >> ~/.ssh/config
+  # - echo "   UserKnownHostsFile=/dev/null" >> ~/.ssh/config
+  # - heroku keys:clear
+  # - yes | heroku keys:add
+  # - yes | git push heroku master
